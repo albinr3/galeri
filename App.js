@@ -118,7 +118,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#E6E6E6",
     borderWidth: 1,
     borderColor: "rgba(157,156,156,1)",
-    borderRadius: 21
+    borderRadius: 21,
+    overflow: 'hidden',
   },
   album13: {
     fontFamily: "Roboto_400Regular",
@@ -303,7 +304,7 @@ const styles = StyleSheet.create({
     width: 96,
     height: 95,
     alignSelf: "center",
-    borderRadius: 21
+    
   },
 });
 
